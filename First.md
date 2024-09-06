@@ -28,10 +28,6 @@
 git add. 
 git push 
 
-
-  
-  
-  
   
 <<<<<<< Updated upstream
   
