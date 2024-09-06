@@ -54,4 +54,8 @@ temporarily save them and remove them from the working directory):
 2. If you want to keep the stash but undo the application:  -> git checkout -- .
 3. If you don't need the stash anymore: -> git stash drop
 
+If you want to delete a branch from the remote repository (e.g., GitHub):
 
+bash
+Copy code
+git push origin --delete branch_name
