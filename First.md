@@ -38,5 +38,18 @@ git push
 * git push origin code_2
 
 >>>>>>> Stashed changes
-  
-  
+
+temporarily save them and remove them from the working directory):
+- git stash
+  then go to the version you want to get as initial to the new one
+- e.g. start from point code_2
+- git checkout code_2
+- git checkout -b code_6
+  if you want to apply the saved stach changes -> git stash apply
+  then , add , commit , push
+* if i mistakly made git stash.  apply
+1. Undo the changes made by  -git reset --hard HEAD
+2. If you want to keep the stash but undo the application:  -> git checkout -- .
+3. If you don't need the stash anymore: -> git stash drop
+
+
