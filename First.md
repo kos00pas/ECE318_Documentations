@@ -33,6 +33,14 @@ git push
   
   
   
+<<<<<<< Updated upstream
   
+=======
+ move to second version 
+*  git checkout -b code_2
+*  git commit -m "New changes in code_2"
+* git push origin code_2
+
+>>>>>>> Stashed changes
   
   
