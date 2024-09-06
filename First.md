@@ -37,6 +37,8 @@ git push
 *  git commit -m "New changes in code_2"
 * git push origin code_2
 
+** move to a version that is already created then 
+  -> git checkout code_X
 >>>>>>> Stashed changes
 
 temporarily save them and remove them from the working directory):
