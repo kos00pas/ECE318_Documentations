@@ -56,6 +56,12 @@ temporarily save them and remove them from the working directory):
 
 If you want to delete a branch from the remote repository (e.g., GitHub):
 
-bash
-Copy code
 git push origin --delete branch_name
+
+* Push them in main 
+git checkout main
+git merge code_4
+git push origin main
+
+
+
