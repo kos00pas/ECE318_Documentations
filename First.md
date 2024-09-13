@@ -28,9 +28,7 @@
 git add. 
 git push 
 
-  
-<<<<<<< Updated upstream
-  
+   
 =======
  move to second version 
 *  git checkout -b code_2
@@ -39,7 +37,6 @@ git push
 
 ** move to a version that is already created then 
   -> git checkout code_X
->>>>>>> Stashed changes
 
 temporarily save them and remove them from the working directory):
 - git stash
