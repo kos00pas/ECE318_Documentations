@@ -20,7 +20,7 @@
 
 ### Setup SDK  
   * will appear the windows as below 
-![SDK](New_project.png)
+    * ![SDK](New_project.png)
  * Give a name to project , e.g. "First tutorial"
  * Give a location for ECE318 projects and to the spesific project 
  * in JDK option, click and select download JDK 
@@ -28,6 +28,7 @@
 
 ## Your First Run 
  * This is the structure of a project 
- ![project](project%20structure.png)
+   *  ![project](project%20structure.png)
+
  * Click green to run the code: 
-![first_run](first_run.png)
+   * ![first_run](first_run.png)
