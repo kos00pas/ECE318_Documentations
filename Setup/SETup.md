@@ -13,6 +13,11 @@
   * Activate educational licence 
 
 
+## Compile and Intrepreter
+* ![compile](compilation.png)
+* ![src](src.png)
+* ![class](class.png)
+
 ## Create a project
   * Open  Intellij IDEA Ultimate
   * Log in with UCY email
@@ -57,25 +62,24 @@
   * ![first_run](first_run.png)
 
 
-## Compile and Intrepreter
-* ![compile](compilation.png)
-* ![src](src.png)
-* ![class](class.png)
+## Examples 
+* ![](./carbonn/main.png)
+* ![](./carbonn/second.png)
+* ![](./carbonn/variables.png)
+* ![](./carbonn/ar0.png)
+* ![](./carbonn/ar1.png)
+* ![](./carbonn/ar2.png)
+* ![](./carbonn/ar3.png)
 
 
-## More info:
+
+
+## Further Study:
 * variables : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 * Arrays :
   * https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
   * https://www.geeksforgeeks.org/array-class-in-java/?ref=lbp
 * java.util: https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html
-
-
-
-
-
-
-
 
 
 
