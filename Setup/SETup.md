@@ -1,11 +1,31 @@
-# First Tutorial
 
+---
+# First Tutorial
+<!-- toc -->
+
+- [First Tutorial](#first-tutorial)
+* [Educational Licence](#educational-licence)
+* [Jetbrains Toolbox](#jetbrains-toolbox)
+* [Download Intellij IDEA Ultimate](#download--intellij-idea-ultimate)
+* [Create a project](#create-a-project)
+    + [Setup SDK/JDK](#setup-sdkjdk)
+* [Setup SDK/JDK for the PC](#setup-sdkjdk-for-the-pc)
+* [Your First Run](#your-first-run)
+* [Compile and Intrepreter](#compile-and-intrepreter)
+* [Examples](#examples)
+* [Task:](#task)
+* [Further Study:](#further-study)
+* [Your first shortcuts in Intellij IDEA Ultimate](#your-first-shortcuts-in-intellij-idea-ultimate)
+
+<!-- tocstop -->
+---
 ## Educational Licence 
 * Open the link and fill out the form using your UCY email address
   * https://www.jetbrains.com/shop/eform/students
 
 ## Jetbrains Toolbox 
-  * Download the application : https://www.jetbrains.com/toolbox-app/
+  * Download the application : 
+    * https://www.jetbrains.com/toolbox-app/
 
 ## Download  Intellij IDEA Ultimate
   * Open JetBrains  Toolbox  
@@ -13,16 +33,14 @@
   * Activate educational licence 
 
 
-## Compile and Intrepreter
-* ![compile](compilation.png)
-* ![src](src.png)
-* ![class](class.png)
+---
 
 ## Create a project
   * Open  Intellij IDEA Ultimate
   * Log in with UCY email
   * In the window  `Welcome to Intelij IDEA` window select `New Project`
 ![New Project window](New_project_1.png)
+---
 
 ### Setup SDK/JDK  
 * The window below will appear:
@@ -31,7 +49,7 @@
  * Select a location for ECE318 projects and the specific project.
  *  Click on the JDK option and select Download JDK	
  * **Note : JDK acts as an SDK within IntelliJ.
-
+---
 ## Setup SDK/JDK for the PC  
 * Open the Environment Variables:
   * Press Windows key + S and type Environment Variables.
@@ -51,25 +69,38 @@
       `javac -version`
 
 
-
+---
 
 
 ## Your First Run
 * This is the structure of a project
   *  ![project](project%20structure.png)
-
+---
 * Click the green button to run the code:
   * ![first_run](first_run.png)
-
-
+---
+## Compile and Intrepreter
+* ![compile](compilation.png)
+---
+* ![src](src.png)
+---
+* ![class](class.png)
+---
 ## Examples 
 * ![](./carbonn/main.png)
+---
 * ![](./carbonn/second.png)
+---
 * ![](./carbonn/variables.png)
+---
 * ![](./carbonn/ar0.png)
+---
 * ![](./carbonn/ar1.png)
+---
 * ![](./carbonn/ar2.png)
+---
 * ![](./carbonn/ar3.png)
+---
 
 
 
@@ -86,6 +117,7 @@
   - **Sex** (e.g., M or F)
   - **Course codes taken** for this semester (e.g., ECE318, ECE311)
   - You should store the corresponding information in arrays and then printing the array(s).
+---
 
 ## Further Study:
 * variables : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
@@ -121,5 +153,5 @@
 * Run code 
    * Ctrl+Shift+ f10 -> run current code 
    * Fn+ Shift + f10 -> Run the last run code 
-  
- 
+
+---

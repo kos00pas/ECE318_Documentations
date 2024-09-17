@@ -1,0 +1,201 @@
+<section>
+<section id="first-tutorial" class="title-slide slide level1">
+<h1>First Tutorial</h1>
+
+</section>
+<section id="educational-licence" class="slide level2">
+<h2>Educational Licence</h2>
+<ul>
+<li>Open the link and fill out the form using your UCY email address
+<ul>
+<li>https://www.jetbrains.com/shop/eform/students</li>
+</ul></li>
+</ul>
+</section>
+<section id="jetbrains-toolbox" class="slide level2">
+<h2>Jetbrains Toolbox</h2>
+<ul>
+<li>Download the application :
+https://www.jetbrains.com/toolbox-app/</li>
+</ul>
+</section>
+<section id="download-intellij-idea-ultimate" class="slide level2">
+<h2>Download Intellij IDEA Ultimate</h2>
+<ul>
+<li>Open JetBrains Toolbox<br />
+</li>
+<li>Find Intellij IDEA Ultimate and click Install</li>
+<li>Activate educational licence</li>
+</ul>
+</section>
+<section id="compile-and-intrepreter" class="slide level2">
+<h2>Compile and Intrepreter</h2>
+<ul>
+<li><figure>
+<img data-src="compilation.png" alt="compile" />
+<figcaption aria-hidden="true">compile</figcaption>
+</figure></li>
+<li><figure>
+<img data-src="src.png" alt="src" />
+<figcaption aria-hidden="true">src</figcaption>
+</figure></li>
+<li><figure>
+<img data-src="class.png" alt="class" />
+<figcaption aria-hidden="true">class</figcaption>
+</figure></li>
+</ul>
+</section>
+<section id="create-a-project" class="slide level2">
+<h2>Create a project</h2>
+<ul>
+<li>Open Intellij IDEA Ultimate</li>
+<li>Log in with UCY email</li>
+<li>In the window <code>Welcome to Intelij IDEA</code> window select
+<code>New Project</code> <img data-src="New_project_1.png"
+alt="New Project window" /></li>
+</ul>
+<h3 id="setup-sdkjdk">Setup SDK/JDK</h3>
+<ul>
+<li>The window below will appear:
+<ul>
+<li><figure>
+<img data-src="New_project.png" alt="SDK" />
+<figcaption aria-hidden="true">SDK</figcaption>
+</figure></li>
+</ul></li>
+<li>Name your project , e.g. “First Tutorial”</li>
+<li>Select a location for ECE318 projects and the specific project.</li>
+<li>Click on the JDK option and select Download JDK</li>
+<li>**Note : JDK acts as an SDK within IntelliJ.</li>
+</ul>
+</section>
+<section id="setup-sdkjdk-for-the-pc" class="slide level2">
+<h2>Setup SDK/JDK for the PC</h2>
+<ul>
+<li>Open the Environment Variables:
+<ul>
+<li>Press Windows key + S and type Environment Variables.</li>
+<li>Click Edit the System Environment vVriables.</li>
+</ul></li>
+<li>Edit the PATH Variable:
+<ul>
+<li>In the System Properties window, click Environment Variables.</li>
+<li>Under System variables, locate and select Path, then click
+Edit.</li>
+<li>Click New and add this path:
+<code>C:\Users\&lt;user_name&gt;\.jdks\openjdk-22.0.2\bin</code></li>
+<li>Click OK to save and close all windows.</li>
+</ul></li>
+<li>Verify the Setup:
+<ul>
+<li>Open a new PowerShell or Command Prompt and run:
+<code>javac -version</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="your-first-run" class="slide level2">
+<h2>Your First Run</h2>
+<ul>
+<li>This is the structure of a project
+<ul>
+<li><figure>
+<img data-src="project%20structure.png" alt="project" />
+<figcaption aria-hidden="true">project</figcaption>
+</figure></li>
+</ul></li>
+<li>Click the green button to run the code:
+<ul>
+<li><figure>
+<img data-src="first_run.png" alt="first_run" />
+<figcaption aria-hidden="true">first_run</figcaption>
+</figure></li>
+</ul></li>
+</ul>
+</section>
+<section id="examples" class="slide level2">
+<h2>Examples</h2>
+<ul>
+<li><img data-src="./carbonn/main.png" /></li>
+<li><img data-src="./carbonn/second.png" /></li>
+<li><img data-src="./carbonn/variables.png" /></li>
+<li><img data-src="./carbonn/ar0.png" /></li>
+<li><img data-src="./carbonn/ar1.png" /></li>
+<li><img data-src="./carbonn/ar2.png" /></li>
+<li><img data-src="./carbonn/ar3.png" /></li>
+</ul>
+</section>
+<section id="task" class="slide level2">
+<h2>Task:</h2>
+<ol type="1">
+<li><p><strong>Run</strong> the above and interact with the
+outputs.</p></li>
+<li><p><strong>Create a program</strong> with the name
+<code>MyRecord.java</code> that will print your information.</p></li>
+<li><p>The program should <strong>print out</strong> the following
+information using <code>System.out.println();</code>:</p></li>
+</ol>
+<ul>
+<li><strong>Name and Surname</strong> (e.g., Angelos Marnerides)</li>
+<li><strong>Date of birth</strong> (e.g., 01/05/1980)</li>
+<li><strong>Town</strong> (e.g., Larnaca)</li>
+<li><strong>Sex</strong> (e.g., M or F)</li>
+<li><strong>Course codes taken</strong> for this semester (e.g., ECE318,
+ECE311)</li>
+<li>You should store the corresponding information in arrays and then
+printing the array(s).</li>
+</ul>
+</section>
+<section id="further-study" class="slide level2">
+<h2>Further Study:</h2>
+<ul>
+<li>variables :
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html</li>
+<li>Arrays :
+<ul>
+<li>https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html</li>
+<li>https://www.geeksforgeeks.org/array-class-in-java/?ref=lbp</li>
+</ul></li>
+<li>java.util:
+https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html</li>
+</ul>
+</section>
+<section id="your-first-shortcuts-in-intellij-idea-ultimate"
+class="slide level2">
+<h2>Your first shortcuts in Intellij IDEA Ultimate</h2>
+<ul>
+<li>Set up mouse wheel for zoom in/out:
+<ol type="1">
+<li>File -&gt; project structure
+<ul>
+<li>Go to File &gt; Settings -&gt; Editor &gt; General.
+<ul>
+<li>Find the section : <code>Mouse Control</code>.</li>
+<li>Check the box
+<code>Change font size (Zoom) with Ctrl+Mouse Wheel</code>.</li>
+<li>Click Apply and then OK.</li>
+</ul></li>
+</ul></li>
+</ol></li>
+<li>Comments
+<ul>
+<li><code>//</code></li>
+<li>Ctrl + <code>/</code> -&gt; comment a line or multiple</li>
+<li>Ctrl + Shift + <code>/</code> -&gt; comment with
+<code>*/</code></li>
+</ul></li>
+<li>Add ‘;’ in the end of a line:
+<ul>
+<li>Ctrl+ Shift + Enter</li>
+</ul></li>
+<li>Close and open <code>Project Window</code>
+<ul>
+<li>Open : Alt + 1</li>
+<li>Close: Shift + Esc</li>
+</ul></li>
+<li>Run code
+<ul>
+<li>Ctrl+Shift+ f10 -&gt; run current code</li>
+<li>Fn+ Shift + f10 -&gt; Run the last run code</li>
+</ul></li>
+</ul>
+</section></section>
