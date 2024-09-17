@@ -73,6 +73,19 @@
 
 
 
+## Task:
+
+1. **Run** the above and interact with the outputs.
+
+2. **Create a program** with the name `MyRecord.java` that will print your information.
+
+3. The program should **print out** the following information using `System.out.println();`:
+  - **Name and Surname** (e.g., Angelos Marnerides)
+  - **Date of birth** (e.g., 01/05/1980)
+  - **Town** (e.g., Larnaca)
+  - **Sex** (e.g., M or F)
+  - **Course codes taken** for this semester (e.g., ECE318, ECE311)
+  - You should store the corresponding information in arrays and then printing the array(s).
 
 ## Further Study:
 * variables : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html

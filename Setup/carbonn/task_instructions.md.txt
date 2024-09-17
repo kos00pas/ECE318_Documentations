@@ -1,0 +1,16 @@
+
+# Task:
+
+1. **Run** the `MyCalculator.java` and interact with the output.
+
+2. **Create a program** with the name `MyRecord.java` that will print your information.
+
+3. The program should **print out** the following information using `System.out.println();`:
+   - **Name and Surname** (e.g., Angelos Marnerides)
+   - **Date of birth** (e.g., 01/05/1980)
+   - **Town** (e.g., Larnaca)
+   - **Sex** (e.g., M or F)
+   - **Course codes taken** for this semester (e.g., ECE318, ECE311)
+
+## Tip:
+You should consider storing the corresponding information in arrays and then printing the array(s).
