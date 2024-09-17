@@ -74,4 +74,10 @@ Open the `test.md` file to confirm that the TOC has been inserted correctly.
 
 
 ++++++++++++++++++++++++++++++++++++++
+## OR
 pandoc SETup.md -t html --pdf-engine=wkhtmltopdf -o slides.pdf
+<div style="page-break-after: always;"></div>
+ pandoc SETup.md -t pptx -o slides.pptx
+  -> SPACE AFTER AND BEFORE IMAGE
+
+IF IS POSSIBLE ADD THE IMAGE IN THE END OF PART OF SLIDE
