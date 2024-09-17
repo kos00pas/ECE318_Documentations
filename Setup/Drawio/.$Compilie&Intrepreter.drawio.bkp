@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="ExqSHqUUeTZ42-WFCkRR">
+    <mxGraphModel dx="855" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A2awNljUkXAwvAJUYtb4-1" value="CODE: JAVA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-17" value="Human Readble&amp;nbsp;&lt;div&gt;source code&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-1">
+          <mxGeometry y="30" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-5" value="Compiler: JAVAC" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-6" value="&lt;span style=&quot;text-align: center;&quot;&gt;compiles the&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;text-align: center;&quot;&gt;.java&lt;/code&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;file into bytecode, creating a&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;text-align: center;&quot;&gt;.class&lt;/code&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;file.&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-5">
+          <mxGeometry y="30" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-30" value="Machine independent&amp;nbsp;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-5">
+          <mxGeometry y="100" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-24" value="Intrepreter : JVM&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-25" value="Execute the&amp;nbsp; bytecode .class file&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-24">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-28" value="Machine spesific intructions&amp;nbsp;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-24">
+          <mxGeometry y="60" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-29" value="&lt;code&gt;.java&lt;/code&gt; (source code) → &lt;code&gt;javac&lt;/code&gt; (compile) → &lt;code&gt;.class&lt;/code&gt; (bytecode) → JVM (run)." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="110" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;JDK includes:&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-42" value="1. javac&amp;nbsp;&lt;div&gt;2. JRE&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;a. JVM&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;b. core libraries&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;c variable types&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;d. build in functions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-34">
+          <mxGeometry y="30" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-38" value="&lt;div style=&quot;forced-color-adjust: none; border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;div style=&quot;forced-color-adjust: none; border-color: rgb(0, 0, 0);&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; border-color: rgb(0, 0, 0);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; border-color: rgb(0, 0, 0);&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; border-color: rgb(0, 0, 0); color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br style=&quot;forced-color-adjust: none; border-color: rgb(0, 0, 0);&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="500" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-44" value="Terms" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="470" y="370" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-45" value="JVM:&amp;nbsp; Java Virtual Machine&amp;nbsp;" style="text;strokeColor=#A50040;fillColor=#d80073;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-44">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-46" value="JDK : Java Dfevelopement Kit&amp;nbsp;" style="text;strokeColor=#A50040;fillColor=#d80073;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-44">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-47" value="SDK : Software Development Kit&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#A50040;fillColor=#d80073;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-44">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A2awNljUkXAwvAJUYtb4-48" value="&lt;div&gt;JRE: Java Runtime Enviroment&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=#A50040;fillColor=#d80073;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" vertex="1" parent="A2awNljUkXAwvAJUYtb4-44">
+          <mxGeometry y="120" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

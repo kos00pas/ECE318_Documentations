@@ -1,7 +1,7 @@
 # First Tutorial
 
 ## Educational Licence 
-* Open the link and fill out the form using your UCY email 
+* Open the link and fill out the form using your UCY email address
   * https://www.jetbrains.com/shop/eform/students
 
 ## Jetbrains Toolbox 
@@ -9,44 +9,100 @@
 
 ## Download  Intellij IDEA Ultimate
   * Open JetBrains  Toolbox  
-  * Find Intellij IDEA Ultimate and click install 
+  * Find Intellij IDEA Ultimate and click Install
+  * Activate educational licence 
 
 
-## Create a Project
+## Create a project
   * Open  Intellij IDEA Ultimate
   * Log in with UCY email
-  * In the window  `Welcome to intelij IDEA` select `New project`
+  * In the window  `Welcome to Intelij IDEA` window select `New Project`
 ![New Project window](New_project_1.png)
 
-### Setup SDK  
+### Setup SDK/JDK  
 * The window below will appear:
     * ![SDK](New_project.png)
- * Name your project , e.g. "First tutorial"
- *  Choose a location for ECE318 projects and the specific project.
- * in JDK option, click and select download JDK 
-	**note : JDK acts as the SDK within IntelliJ.
+ * Name your project , e.g. "First Tutorial"
+ * Select a location for ECE318 projects and the specific project.
+ *  Click on the JDK option and select Download JDK	
+ * **Note : JDK acts as an SDK within IntelliJ.
 
-## Your First Run 
- * This is the structure of a project 
-   *  ![project](project%20structure.png)
+## Setup SDK/JDK for the PC  
+* Open the Environment Variables:
+  * Press Windows key + S and type Environment Variables.
+  * Click Edit the System Environment vVriables.
+
+
+* Edit the PATH Variable:
+  * In the System Properties window, click Environment Variables.
+  * Under System variables, locate and select Path, then click Edit.
+  * Click New and add this path:
+    `C:\Users\<user_name>\.jdks\openjdk-22.0.2\bin`
+  * Click OK to save and close all windows.
+ 
+
+* Verify the Setup:
+  * Open a new PowerShell or Command Prompt and run:
+      `javac -version`
+
+
+
+
+
+## Your First Run
+* This is the structure of a project
+  *  ![project](project%20structure.png)
 
 * Click the green button to run the code:
-   * ![first_run](first_run.png)
+  * ![first_run](first_run.png)
 
 
-## Your First shortcuts 
-1. Set up mouse wheel for zoom in/out:
+## Compile and Intrepreter
+* ![compile](compilation.png)
+* ![src](src.png)
+* ![class](class.png)
+
+
+## More info:
+* variables : https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+* Arrays :
+  * https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+  * https://www.geeksforgeeks.org/array-class-in-java/?ref=lbp
+* java.util: https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html
+
+
+
+
+
+
+
+
+
+
+## Your first shortcuts in Intellij IDEA Ultimate
+*  Set up mouse wheel for zoom in/out:
    1. File -> project structure
       * Go to File > Settings -> Editor > General.
           - Find the section : `Mouse Control`.
           - Check the box  `Change font size (Zoom) with Ctrl+Mouse Wheel`.
           - Click Apply and then OK.
-2. Add ';' in the end of a line: 
-   *  Ctrl+ Shift + Enter  
-3. Close and open `Project Window`
+* Comments
+  * `//` 
+  * Ctrl + `/` -> comment a line  or multiple 
+  * Ctrl + Shift + `/` -> comment with `*/`
+
+
+* Add ';' in the end of a line: 
+  *  Ctrl+ Shift + Enter  
+ 
+
+* Close and open `Project Window `
    * Open : Alt + 1 
    * Close: Shift + Esc
-4. Run code 
+
+
+* Run code 
    * Ctrl+Shift+ f10 -> run current code 
    * Fn+ Shift + f10 -> Run the last run code 
+  
  
