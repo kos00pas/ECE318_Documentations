@@ -82,5 +82,8 @@ Open the `test.md` file to confirm that the TOC has been inserted correctly.
    - SPACE AFTER AND BEFORE IMAGE
    - new slide -> new  # 
    - same slides ->  ## ,### 
-
+* soffice --headless --convert-to pdf Tutorial_1.pptx
+* OR
+* unoconv -f pdf Tutorial_1.pptx
+  - from pptx to pdf  
 IF IS POSSIBLE ADD THE IMAGE IN THE END OF PART OF SLIDE
