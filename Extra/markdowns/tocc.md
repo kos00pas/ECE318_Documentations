@@ -30,7 +30,7 @@ npm install -g markdown-toc
 ### Step 2: Create a Markdown File
 Create a Markdown file (e.g., `test.md`) that includes several headings. You can use a simple text editor to create the file. Here’s an example of what the content could look like:
 
-```md
+```bash
 # Title
 ## Section 1
 Content for section 1.
@@ -75,9 +75,12 @@ Open the `test.md` file to confirm that the TOC has been inserted correctly.
 
 ++++++++++++++++++++++++++++++++++++++
 ## OR
-pandoc SETup.md -t html --pdf-engine=wkhtmltopdf -o slides.pdf
-<div style="page-break-after: always;"></div>
- pandoc SETup.md -t pptx -o slides.pptx
-  -> SPACE AFTER AND BEFORE IMAGE
+* pandoc SETup.md -t html --pdf-engine=wkhtmltopdf -o slides.pdf
+  - comment in pdf 
+    -   ` <div style="page-break-after: always;"></div> `
+* pandoc SETup.md -t pptx -o slides.pptx
+   - SPACE AFTER AND BEFORE IMAGE
+   - new slide -> new  # 
+   - same slides ->  ## ,### 
 
 IF IS POSSIBLE ADD THE IMAGE IN THE END OF PART OF SLIDE
