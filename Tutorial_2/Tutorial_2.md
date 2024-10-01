@@ -166,6 +166,7 @@ Image: [here](https://beginnersbook.com/2018/10/ds-asymptotic-notation/).
     - The average case behaves similarly to the worst case because the recursive structure leads to exponential growth in function calls in both cases.
 
 ![](./images/fibo.png)
+
 ---
 
 
@@ -204,9 +205,8 @@ Image: [here](https://beginnersbook.com/2018/10/ds-asymptotic-notation/).
 
 
 
-# Task (ArrayList):
+# Task 1 (ArrayList):
 
-### Exercise:
 **Develop a program Main.java that will:**
 - Create an ArrayList of 2 elements
 - Add items to the ArrayList:
@@ -221,9 +221,8 @@ Image: [here](https://beginnersbook.com/2018/10/ds-asymptotic-notation/).
 
 ---
 
-# Task (LinkedList):
+# Task 2 (LinkedList):
 
-### Exercise:
 **Develop a program IntegerList.java that will create a LinkedList and add 4 Integer objects to it:**
 - Print the size of the LinkedList
 - Add integer objects at the beginning and the end of the LinkedList and print them
@@ -238,9 +237,8 @@ Image: [here](https://beginnersbook.com/2018/10/ds-asymptotic-notation/).
 
 ---
 
-# Task (Set):
+# Task 3 (Set):
 
-### Exercise:
 **Develop a program Main.java that will create a LinkedList and add 4 Integer objects to it:**
 - Print the size of the LinkedList
 - Add integer objects at the beginning and the end of the LinkedList and print them
@@ -253,13 +251,35 @@ Image: [here](https://beginnersbook.com/2018/10/ds-asymptotic-notation/).
 - Set the value of the second item to `"one"` and print the list
 - Clone the LinkedList object (tip: using `list.clone()`) and print it.
 
+# Task 4 – Searching & Sorting
+
+## Exercise 1:
+
+### Step 1:
+For this exercise, you need to read the file `cars.csv` and create an array list to insert each car. The CSV file has the following columns:
+- `price`, `brand`, `model`, `year`, `mileage`, `color`, `vin`
+
+While you are reading the file, you need to ignore the first row since it contains the column’s names. 
+Also, note that each column is separated with a comma `,`. Use the class `Car.java` that is uploaded on Blackboard.
+
+### Step 2:
+1. Use **Merge sort** to sort the list of cars based on the field `year` in descending order. (From the newest to older).
+2. Then print the newest car (considering there is only one with that year) and then change the year field to 2022.
+
+### Step 3:
+Write a method `public Car[] duplicatesBinarySearch(int year)` that uses **Binary search** to find the car/cars with the given manufacture year. You need to take into consideration that some cars have the same manufacture year.
+
+### Step 4:
+Use the above method to get the following data and print:
+1. The details of the car with a year `2013`
+2. The details of the cars with a year `2015`
+
+## Exercise 2:
+1. Write a code that implements the **Quicksort** algorithm that uses the median as a pivot.
+2. Then sort the following array `int[] unsorted = {3, 10, 1, 45, 14, 22, 5, 36}`.
 
 
-
-
-
-
-# Compare Collections (optional to read)
+# Compare Collections (optional)
 ### 1. Map Interface Comparison
 
 | Map            | HashMap         | TreeMap           | LinkedHashMap    | Hashtable         |
