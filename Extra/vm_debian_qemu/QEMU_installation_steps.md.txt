@@ -1,0 +1,61 @@
+
+# QEMU Installation on Debian VM
+
+## 1. Update System
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+## 2. Install QEMU and Related Packages
+Since `qemu` package was not available, we installed `qemu-system-x86` instead:
+```bash
+sudo apt install qemu-system-x86
+```
+
+## 3. Install Remaining Dependencies
+We installed the remaining dependencies for virtualization:
+```bash
+sudo apt install qemu-kvm libvirt-clients libvirt-daemon-system bridge-utils virt-manager
+```
+
+### Commands Explanation:
+- **qemu-system-x86**: Provides QEMU for x86 virtualization.
+- **qemu-kvm**: Adds KVM support for hardware acceleration.
+- **libvirt-clients**: Command-line tools to interact with libvirt.
+- **libvirt-daemon-system**: Libvirt system daemon to manage VMs.
+- **bridge-utils**: Networking tools for creating network bridges.
+- **virt-manager**: GUI for managing VMs.
+
+## 4. Enable libvirt Daemon
+```bash
+sudo systemctl enable --now libvirtd
+```
+
+## 5. Add User to libvirt Group
+```bash
+sudo usermod -aG libvirt $(whoami)
+```
+
+---
+
+## Troubleshooting Steps (if QEMU package is missing):
+1. Edit the sources list:
+   ```bash
+   sudo nano /etc/apt/sources.list
+   ```
+2. Add this line:
+   ```bash
+   deb http://deb.debian.org/debian/ bullseye main contrib
+   ```
+3. Update packages:
+   ```bash
+   sudo apt update
+   ```
+4. Install QEMU system again:
+   ```bash
+   sudo apt install qemu-system-x86
+   ```
+
+With these steps, QEMU and KVM are set up in the Debian VM on a Windows machine.
+
