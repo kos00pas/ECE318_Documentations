@@ -71,7 +71,7 @@ An interface in Java defines a set of methods that a class must implement. It on
 
 
 
-# Home Study 
+# Study for home
 
 ![](./images/homestudy.png)
 
