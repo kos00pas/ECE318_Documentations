@@ -1,6 +1,3 @@
-/**
- *
- */
 public class Car {
     private double price;
     private String brand;
