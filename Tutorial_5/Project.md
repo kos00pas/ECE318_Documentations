@@ -10,8 +10,8 @@
 
 # Download MySQL
   
-  1. Download MySQL from the official site: [https://dev.mysql.com/downloads/mysql/]
-  2. Choose the **Windows (x86, 64-bit), MSI Installer**.
+  1. Download MySQL from the official site: [https://dev.mysql.com/downloads/installer/]
+  2. ** you don't have to log in : there is a `No thanks, just start my download.` option
   3. During setup:
      - At **Setup Type**, select `Developer Default` to ensure all relevant components are installed.
      - At **Accounts and Roles**, set a **root password** and create a new **MySQL User**.
@@ -51,7 +51,7 @@
   4. At Database tool will now appear the `The_Job_Database` select it
      - From menu select the  `Jump to Quere concole` and then -> `Default Query console`
        - Write and run separately each command :
-   ```bash 
+   ```SQL 
      create database The_Job_Database;
      use The_Job_Database;
      CREATE TABLE job_data (
@@ -62,4 +62,27 @@
    DESCRIBE job_data;
    SELECT COUNT(*) FROM job_data;
    ```
-    
+# JDBC (Java Database Connectivity)
+```java
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class MySQLConnection {
+
+    public static void main(String[] args) {
+        // Database URL, Username, and Password
+        String url = "jdbc:mysql://localhost:3306/The_Job_Database";
+        String user = "your_username";  // Replace with your MySQL username
+        String password = "your_password";  // Replace with your MySQL password
+
+        // Try-with-resources block to automatically close the connection
+        try (Connection connection = DriverManager.getConnection(url, user, password)) {
+            System.out.println("Connection to the database was successful!");
+        } catch (SQLException e) {
+            // Print details about SQL exception if connection fails
+            e.printStackTrace();
+        }
+    }
+}
+```

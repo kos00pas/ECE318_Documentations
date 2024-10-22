@@ -8,7 +8,7 @@
 </div>
 
 1) Submission deadline: <span style="color: red;">22/11/2024</span>
-    * Time: <span style="color: red;">23:59</span>
+    * Time: <span style="color: red;">17:00</span>
     * Submission via Teams
     * What to submit: Code and UML diagrams (Class & Use case diagrams) in a Zip file.
 
@@ -18,7 +18,7 @@
 
 
 ## Project Rules 
-* You have to download the submitted code and diagrams through Teams and will be examine on them.  
+* You have to download the submitted code and diagrams through Teams and will be examined on them.  
 * Individual submission – the work should be developed solely by you and with no one else!
   1) This is an individual piece of work, hence you will have to design and implement it on your own. No group projects will be accepted.
 
@@ -49,8 +49,13 @@ Design and implement an application for a leading job finder agency, allowing ad
 
 ## Datasets
 **Job Dataset** - A Comprehensive Job Dataset for Data Science, Research, and Analysis  
+
 * From [Kaggle](https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset)
-  * you can download and see the description for each column in the link.  
+  * you can see the description for each column in the link.
+  
+* Where to find dataset : `Teams-> General Channel -> Files -> Project_dataset`
+  * you can build your code using a smaller dataset e.g.   `part_of_dataset_#number`
+    * You have to submit and demonstrate your code using  `full_job_description.csv`
 
 ##  Requirements - what you will be examined on
 The exam will be split in two parts, Explanation and Demonstration on two specific scenarios 

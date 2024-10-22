@@ -16,7 +16,7 @@
 `https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.30`
 - at the table, in the row `Files` click on jar and download it in the  location you have all your ECE318 Projects
 
-![](images/connector.png)
+![](connector.png)
 
 - to enable Connector 
   - in InteliJ 
