@@ -1,0 +1,401 @@
+
+
+
+
+
+\documentclass{article}
+
+
+\usepackage{hyperref}
+
+
+\usepackage{geometry}
+
+
+\usepackage{array}  % For tabular support
+
+
+\geometry{margin=1in}
+
+
+
+
+
+
+\title{Job Finder Application Report}
+
+
+\date{}
+
+
+
+
+
+
+\begin{document}
+
+
+
+
+
+
+\maketitle
+
+
+
+
+
+
+\section*{Important Deadlines}
+
+
+\begin{itemize}
+
+
+    \item Submission deadline: 22/11/2024
+
+
+    \begin{itemize}
+
+
+        \item Time: 23:59
+
+
+        \item Submission via Teams
+
+
+        \item What to submit: Code and UML diagrams (Class \& Use case diagrams) in a Zip file.
+
+
+    \end{itemize}
+
+
+    \item Demo dates
+
+
+    \begin{itemize}
+
+
+        \item Tutorial: 27/11/2024
+
+
+        \item Lecture: 28/11/2024
+
+
+    \end{itemize}
+
+
+\end{itemize}
+
+
+
+
+
+
+\section*{Project Rules}
+
+
+\begin{itemize}
+
+
+    \item You have to download the submitted code and diagrams through Teams and will be examined on them.
+
+
+    \item Individual submission – the work should be developed solely by you and with no one else!
+
+
+    \begin{itemize}
+
+
+        \item This is an individual piece of work, hence you will have to design and implement it on your own. No group projects will be accepted.
+
+
+    \end{itemize}
+
+
+    \item Late submission (Penalties):
+
+
+    \begin{itemize}
+
+
+        \item Same day late submission: reduction of 10\% from overall mark
+
+
+        \item Next day late submission: Reduction of 20\% from overall mark
+
+
+        \item 2+ day submission until 5 days: Reduction of 50\% from overall mark
+
+
+        \item 5+ day submission: Rejected and total 100\% reduction from overall mark
+
+
+    \end{itemize}
+
+
+    \item No show policy: Students that do not appear for the demo with no justification of their absence will be automatically marked with 0.
+
+
+    \begin{itemize}
+
+
+        \item Need to inform the ECE admin office cc’ing Prof. Marnerides with an explanation.
+
+
+    \end{itemize}
+
+
+    \item Plagiarism: Students submitting copied diagrams or code that they cannot explain will be investigated for plagiarism and will be automatically assigned with a 0 mark.
+
+
+    \item Notes:
+
+
+    \begin{itemize}
+
+
+        \item Students requesting an extension with justification need to ask at least 1 week in advance.
+
+
+        \item Last minute requests for extensions without justification will be rejected.
+
+
+    \end{itemize}
+
+
+\end{itemize}
+
+
+
+
+
+
+\section*{Goal}
+
+
+Design and implement an application for a leading job finder agency, allowing administrators to access and manage the agency’s job dataset through an intuitive GUI. The application should enable the admin to view, add, update, and delete job listings, as well as filter, sort, and generate reports. This project emphasizes core OOP principles, database management, and GUI interaction.
+
+
+
+
+
+
+\section*{Datasets}
+
+
+\textbf{Job Dataset} - A Comprehensive Job Dataset for Data Science, Research, and Analysis \\
+
+
+From \url{https://www.kaggle.com/datasets/ravindrasinghrana/job-description-dataset}
+
+
+
+
+
+
+\section*{Requirements - Examination Criteria}
+
+
+\textbf{Explanation} (OOP Principles \& Java): (3 minutes)
+
+
+\begin{itemize}
+
+
+    \item Class diagram and Use Case diagram explanation
+
+
+    \item Discuss OOP principles: Encapsulation, Abstraction, Inheritance, Polymorphism
+
+
+\end{itemize}
+
+
+\textbf{Demonstration} (GUI \& Database): (4 minutes)
+
+
+\begin{itemize}
+
+
+    \item Demonstrate database filtering, sorting, and report generation.
+
+
+    \item Show CRUD operations via GUI
+
+
+    \item Ensure GUI functionality, organization, and error handling.
+
+
+\end{itemize}
+
+
+
+
+
+
+\section*{Marking System}
+
+
+\begin{tabular}{|c|l|p{10cm}|}
+
+
+\hline
+
+
+\textbf{\%} & \textbf{Marking System} & \textbf{Requirements} \\
+
+
+\hline
+
+
+20 & Class diagram & \begin{itemize}
+
+
+    \item (5) Creation and Explanation
+
+
+    \item (5) Relationships
+
+
+    \item (5) Methods \& Attributes
+
+
+    \item (5) Use Case Diagram
+
+
+\end{itemize} \\
+
+
+\hline
+
+
+20 & OOP Principles & \begin{itemize}
+
+
+    \item (5) Encapsulation
+
+
+    \item (5) Abstraction
+
+
+    \item (5) Inheritance
+
+
+    \item (5) Polymorphism
+
+
+\end{itemize} \\
+
+
+\hline
+
+
+35 & Database or Build-in Collections & \begin{itemize}
+
+
+    \item (10) CRUD functionality
+
+
+    \item (5) Search
+
+
+    \item (5) Filter
+
+
+    \item (5) Sorting
+
+
+    \item (5) Presentation
+
+
+    \item (5) Export Reports
+
+
+\end{itemize} \\
+
+
+\hline
+
+
+25 & GUI & \begin{itemize}
+
+
+    \item (15) Functionality
+
+
+    \item (5) Page Organization
+
+
+    \item (5) Error handling
+
+
+\end{itemize} \\
+
+
+\hline
+
+
+\end{tabular}
+
+
+
+
+
+
+\section*{Technical Tips}
+
+
+\begin{itemize}
+
+
+    \item \textbf{GUI}: Use Swing or JavaFX for a responsive interface.
+
+
+    \item \textbf{Database}: JDBC and MySQL are recommended, but built-in collections are also possible (may affect performance).
+
+
+    \item \textbf{Diagrams}: Use draw.io for diagrams, exporting to PDF or PNG.
+
+
+    \item \textbf{Exception Handling}: Try-catch blocks with user-friendly messages, error dialogs, and logging (Log4j or SLF4J).
+
+
+\end{itemize}
+
+
+
+
+
+
+\section*{Tips}
+
+
+\begin{itemize}
+
+
+    \item Start with GUI design, then create class diagrams.
+
+
+    \item Implement class structure with basic relationships first, then add details.
+
+
+    \item Optimize for performance due to dataset size.
+
+
+    \item Reminder: built-in collections are an option but may be slower.
+
+
+\end{itemize}
+
+
+
+
+
+
+\end{document}
+
+
+
+
+

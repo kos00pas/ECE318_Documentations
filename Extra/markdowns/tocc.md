@@ -75,10 +75,10 @@ Open the `test.md` file to confirm that the TOC has been inserted correctly.
 
 ++++++++++++++++++++++++++++++++++++++
 ## OR
-* pandoc SETup.md -t html --pdf-engine=wkhtmltopdf -o slides.pdf
+pandoc Tutorial_.md -t html --pdf-engine=wkhtmltopdf -o Tutorial_.pdf
   - comment in pdf 
     -   ` <div style="page-break-after: always;"></div> `
-* pandoc Tutorial_2.md -t pptx -o Tutorial_2.pptx
+pandoc Tutorial_4.md -t pptx -o Tutorial_4.pptx
    - SPACE AFTER AND BEFORE IMAGE
    - new slide -> new  # 
    - same slides ->  ## ,### 
